@@ -1,0 +1,637 @@
+body{
+    font-family: Arial,Tahoma;
+
+}
+
+.cont
+{
+    width: 900px;
+    margin: auto;
+    padding-left: 40px;
+    
+}
+.clearfix
+{
+    clear: both;
+}
+/*         Header             */
+.header .slider
+{
+     background-image: url('sdsd.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 568px;
+    
+}
+.header .slider .intro
+{
+   
+    height:568px;
+    text-align: center; 
+    padding-top: 200px;
+}
+.header .slider .intro h2
+{
+    margin: 0 0 0 290px;
+    font-size: 30px;
+    font-family: Arial;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    width: 294px;
+    padding: 10px 0px 10px 0px;
+}
+.header .slider .intro button
+{
+    background-color: #404040;
+    border: 3px solid aliceblue;
+/*    border-radius: 9px;*/
+    padding: 5px 20px 5px 20px;
+    margin-top: 38px;
+    margin-right: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2ecc71;
+    opacity: 0.99;
+    box-shadow: 5px 5px 5px #CCC;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+.header .slider .intro button:hover
+{
+    color:#FFF;
+    cursor: pointer;
+    background: #2ecc71;
+  
+}
+
+.header .navbar
+{
+    background-color:#252F31;
+    color: #FFF;
+    overflow: hidden;
+    font-family: Arial;
+    height: 70px;
+    
+}
+.header .navbar h3
+{
+    float: left;
+    margin: 20px 0 0 0;
+    font-size: 25px;
+}
+.header .navbar h3:hover
+{
+    cursor: pointer;
+}
+.header .navbar h3 span
+{
+    color:#2ecc71;
+}
+.header .navbar ul
+{
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+    float: right;
+}
+
+.header .navbar ul li
+{
+    float: left;
+    padding: 10px;
+}
+.header .navbar .active,
+.header .navbar ul li:hover
+{
+    color:#2ecc71;
+    cursor: pointer;
+}
+/* ----------------------------------*/
+
+/*             Features            */
+
+.features
+{
+    overflow:hidden; 
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.features .feat
+{
+    float:left;
+    width:33.33333%;
+    height:150px;
+}
+.features .feat h3
+{
+    color:#666;
+}
+.features .feat p
+{
+    line-height: 1.6;
+    color:#888;
+    font-size: 15px;
+    padding: 0 7px 0 0;
+}
+/* ----------------------------------*/
+
+/*             About ME            */
+
+.aboutme
+{
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+.aboutme .imgg
+{
+    float: left;
+    width: 50%;
+    height: 562px;
+    background: url(harvey1.jpg);
+    background-size: 100% 100%;
+/*    border: 1px solid red;*/
+}
+
+.aboutme .info
+{
+    float: left;
+    width: 50%;
+}
+.aboutme .info h3
+{
+    margin: 40px 0 20px 40px;
+    color:#666;
+}
+.aboutme .info > p
+{
+   
+    margin: 0 0 10px 40px;
+}
+.aboutme .info > p:last-of-type
+{
+    margin-top: 16px;
+}
+
+.aboutme .info  p
+{
+    line-height: 1.7;
+    color: #888;
+    font-size: 15px;
+}
+.aboutme .info .hobbies
+{
+    overflow:hidden;
+    margin:50px 0 0 40px;
+}
+.aboutme .info .hobbies .content h3
+{
+    color:#666;
+}
+.aboutme .info .hobbies .content
+{
+    float:left;
+    width:50%;
+    min-height:100px;
+    overflow: hidden;
+}
+.aboutme .info .hobbies .content .icon
+{
+    float: left;
+    width:12%;
+    margin-right: 4%;
+}
+.aboutme .info .hobbies .content .icon img
+{
+    max-width:97%;
+    margin: 20px 10px 0 0;
+}
+.aboutme .info .hobbies .content .text
+{
+    float: left;
+    width:82%;
+    margin-left: 4px;
+}
+.aboutme .info .hobbies .content .text p
+{
+    margin-top: 0px;
+}
+.aboutme .info .hobbies .content .text h4
+{
+    margin-bottom: 5px;
+    color: #666;
+}
+
+
+.aboutme .info .fa-lg {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+/* ----------------------------------*/
+
+/*             My Skills            */
+.my-skills
+{
+    padding-top: 30px;
+    padding-bottom:80px;
+    overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress
+{
+    width: 50%;
+    float:left;
+}
+.my-skills .progress
+{
+    margin-top: 65px;
+}
+.my-skills .skills h3
+{
+    margin: 40px 0 20px 0px;
+    color:#666;
+}
+.my-skills .skills  p
+{
+   
+    margin: 0 0 10px 0px;
+    color:#888;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.my-skills .skills  p:last-of-type
+{
+    margin-top: 30px;
+    color:#888;
+}
+.my-skills .skills button
+{
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+    background: none;
+    font-size: 15px;
+    margin: 30px 0px 0px 0px;
+    padding: 5px 17px 5px 17px;
+    
+}
+.my-skills .cont .progress .tec
+{
+    margin-left: 50px;
+}
+.my-skills .cont .progress .tec h4
+{
+    color:#666;
+}
+.my-skills .cont .progress .tec div
+{
+    background: #F2F2F2;
+    height: 25px;
+
+    
+}
+.my-skills .cont .progress .tec div span
+{
+    background: #2ecc71;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    font-weight: bold;
+    color:#FFF;
+}
+
+/* ----------------------------------*/
+
+/*             Resume            */
+.resume
+{
+    background-color:#F2F2F2;
+    padding-top:50px;
+    padding-bottom:70px;
+    text-align: center;
+}
+
+.resume h3
+{
+    text-transform: uppercase;
+    color:#666;
+}
+ .resume p
+{
+    line-height: 1.5;
+    color:#888;
+    font-size: 15px;
+    padding: 0 80px 0 80px;
+}
+.resume button
+{
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+    background: none;
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 5px 17px 5px 17px;
+    
+}
+/*------------------------------------*/
+/*             My Education            */
+.my-edu
+{
+    padding-top: 70px;
+    padding-bottom:30px;
+    overflow: hidden;
+}
+.my-edu .main
+{
+    width: 50%;
+    float:left;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+.my-edu .exp
+{
+    width: 40%;
+    float:left;
+    padding-top: 37px;
+
+}
+.my-edu .main h4
+{
+    margin: 40px 0 20px 40px;
+    color:#666;
+}
+.my-edu .main  p
+{
+   
+    margin: 0 0 10px 0px;
+    color:#666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.my-edu .main  p:last-of-type
+{
+    margin-top: 30px;
+    color:#666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.my-edu .exp .cont2 span,
+.my-edu .exp .cont2 p,
+.my-edu .exp .cont2 hr
+{
+    color:#999;
+}
+.my-edu .exp .cont2 hr
+{
+    margin: 17px 0 0px 0;
+    background-color:#999;
+    height: 2px;
+    border: 0px;
+
+
+}
+.my-edu .exp .cont2 p
+{
+    margin: 20px 0 50px 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.my-edu .exp .cont2 h4
+{
+    color: #666;
+    margin-top: 70px;
+    margin-bottom: 8px;
+
+}
+.my-edu .exp .cont2 span
+{
+    margin-bottom: 8px;
+}
+.my-edu .exp .cont2 span:first-of-type
+{
+    display: block;
+}
+.my-edu .exp .cont2 span:last-of-type
+{
+    display: inline-block;
+    color: #FFF;
+    background: #2ecc71;
+    padding: 5px 5px 5px 5px;
+    font-size: 11px;
+    font-weight: bold;
+}
+/* ----------------------------------*/
+/*             Testimonail            */
+.test
+{
+    background-color:#F2F2F2;
+    padding-top:40px;
+    padding-bottom:10px;
+    text-align: center;
+}
+.test .cont q
+{
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+    font-family: Arial,Tahoma;
+    font-style: italic;
+    color: #888;
+    font-weight: bold;
+    line-height: 1.6;
+}
+.test .cont h3
+{
+        color: #555;
+}
+
+.test .cont ul
+{
+    
+    list-style:none;
+    padding-left: 0px;
+    text-align: center;
+    margin: 30px 0 25px 0;
+
+}
+.test .cont ul li
+{
+    width: 8px;
+    height: 8px;
+    border:2px solid #2ecc71;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+.test .cont ul .active,
+.test .cont ul li:hover
+{
+    background-color: #2ecc71;
+}
+/*------------------------------------*/
+/*             PortFolio            */
+.portf
+{
+    padding-top: 30px;
+    padding-bottom:70px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.portf .works > div
+{
+    float: left;
+    width: 33.3333%;
+    margin-bottom: 27px;
+}
+.portf .works img
+{
+    width: 92%;
+    height: 255px;
+    margin: 0px;
+    box-shadow: 6px 6px 4px #5c5c6b,
+                -6px -6px 4px #5c5c6b;
+
+    
+
+}
+.portf .works img:hover
+{
+    box-shadow: 4px 4px 4px 4px ,
+                -4px -4px 4px 4px ;
+    border-radius:10%;
+    transition: all .4s ease-in-out;
+    
+    
+}
+
+.portf .cont p
+{
+    padding: 4px 40px 40px 40px;
+    line-height: 1.5;
+    color: #969696;
+    font-size: 13.4px;
+    font-weight: bold;
+    
+}
+/* ----------------------------------*/
+
+/*             Contact Me            */
+.contact-me
+{
+    padding-top: 75px;
+    padding-bottom:80px;
+    overflow: hidden;
+    background-color: #252F31;
+    color: white;
+    line-height: 1.5;
+}
+.contact-me h3
+{
+    margin: 0 0 50px 0;
+    color:#FFF;
+}
+.contact-me b
+{
+    color: #FFF;
+}
+.contact-me span
+{
+    margin-left:20px;
+    font-size: 15px;
+    color:#D1D6D9;
+    font-weight: bold;
+}
+.contact-me .main-info
+{
+    color: #888;
+}
+.contact-me .main-info,
+.contact-me .user-info
+{
+    width: 50%;
+    float:left;
+}
+.contact-me .user-info input,
+.contact-me .user-info textarea
+
+{
+    display: block;
+    padding: 10px;
+    margin: 5px 0 30px 20px;
+    width: 400px;
+}
+
+.contact-me .user-info input,
+.contact-me .user-info textarea
+{
+    background-color: #4B5557;
+    border: 1px solid #4B5557;
+    color: white;
+}
+.contact-me .user-info button
+{
+    background-color: #191E22;
+    color: #D3D3D3;
+    margin: 0px 0 0 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #191E22;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+/* ----------------------------------*/
+/* ----------------------------------*/
+
+/*             Footer            */
+.footer
+{
+    background-color: #191E22;
+    color:white;
+    text-align: center;
+    padding: 15px 0 1px 0;
+}
+.footer ul
+{
+    list-style: none;
+    padding-left: 0px;
+    margin: 10px 0 15px 0;
+}
+.footer ul li
+{
+    display: inline-block;
+    padding: 2px;
+}
+
+.footer ul li i.fa-facebook-square:hover
+{
+    cursor: pointer;
+    color: #3b5998	;
+}
+
+.fa-lg
+{
+        font-size: 1.6em;   
+}
+.footer ul li i.fa-twitter-square:hover
+{
+    cursor: pointer;
+    color: #1EA1F2;
+}
+.footer ul li i.fa-google-plus-square:hover
+{
+    cursor: pointer;
+    color: #C75D5B;
+}
+.footer ul li i.fa-linkedin-square:hover
+{
+    cursor: pointer;
+    color: #1C7EB6;
+}
+.footer ul li i.fa-youtube-square:hover
+{
+    cursor: pointer;
+    color: #BE3940;
+}
